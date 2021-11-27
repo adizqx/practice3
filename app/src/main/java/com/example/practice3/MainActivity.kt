@@ -23,12 +23,11 @@ class MainActivity : AppCompatActivity() {
                 }
                 "2" -> {
                     openMainActivity2(R.drawable.ic_baseline_ac_unit_24)
-
                 }
                 "3" -> {
                     openMainActivity2(R.drawable.ic_baseline_accessibility_new_24)
-
                 }
+                else -> openMainActivity2(R.drawable.ic_baseline_image_not_supported_24)
             }
         }
     }
